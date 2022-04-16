@@ -11,7 +11,7 @@ app.use(
 );
 
 app.get("/", (req, res, next) => {
-  res.send("🐲🐲🐲🐲🐲🐲🐲");
+  res.send("meow see");
 });
 
 module.exports = app;
